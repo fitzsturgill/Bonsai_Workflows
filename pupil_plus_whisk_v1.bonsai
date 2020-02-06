@@ -13,17 +13,17 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="q2:Crop">
           <q2:RegionOfInterest>
-            <q2:X>530</q2:X>
-            <q2:Y>661</q2:Y>
-            <q2:Width>142</q2:Width>
-            <q2:Height>131</q2:Height>
+            <q2:X>641</q2:X>
+            <q2:Y>387</q2:Y>
+            <q2:Width>102</q2:Width>
+            <q2:Height>96</q2:Height>
           </q2:RegionOfInterest>
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="TriggeredWindow">
           <Count xsi:nil="true" />
-          <TimeSpan>PT11S</TimeSpan>
+          <TimeSpan>PT10S</TimeSpan>
         </Combinator>
       </Expression>
       <Expression xsi:type="SelectMany">
@@ -32,7 +32,7 @@
           <Nodes>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="q2:VideoWriter">
-                <q2:FileName>C:\Users\Adam\BpodUser\Data\DC_56\lickNoLick_Odor_v2\Session Data\Combined_180922\Pupil_.avi</q2:FileName>
+                <q2:FileName>C:\Users\Adam\BpodUser\Data\DC_62\FrankenLNL_4odors\Session Data\Combined_190124\Pupil_.avi</q2:FileName>
                 <q2:Suffix>FileCount</q2:Suffix>
                 <q2:Buffered>true</q2:Buffered>
                 <q2:Overwrite>true</q2:Overwrite>
@@ -122,7 +122,7 @@
           <Nodes>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="q2:VideoWriter">
-                <q2:FileName>C:\Users\Adam\BpodUser\Data\DC_56\lickNoLick_Odor_v2\Session Data\Combined_180922\Whisk_.avi</q2:FileName>
+                <q2:FileName>C:\Users\Adam\BpodUser\Data\DC_62\FrankenLNL_4odors\Session Data\Combined_190124\Whisk_.avi</q2:FileName>
                 <q2:Suffix>FileCount</q2:Suffix>
                 <q2:Buffered>true</q2:Buffered>
                 <q2:Overwrite>true</q2:Overwrite>
@@ -157,16 +157,16 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="TriggeredWindow">
           <Count xsi:nil="true" />
-          <TimeSpan>PT11S</TimeSpan>
+          <TimeSpan>PT10S</TimeSpan>
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="q2:Crop">
           <q2:RegionOfInterest>
-            <q2:X>389</q2:X>
-            <q2:Y>211</q2:Y>
-            <q2:Width>498</q2:Width>
-            <q2:Height>144</q2:Height>
+            <q2:X>644</q2:X>
+            <q2:Y>442</q2:Y>
+            <q2:Width>390</q2:Width>
+            <q2:Height>234</q2:Height>
           </q2:RegionOfInterest>
         </Combinator>
       </Expression>
@@ -212,7 +212,7 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="TriggeredWindow">
           <Count xsi:nil="true" />
-          <TimeSpan>PT11S</TimeSpan>
+          <TimeSpan>PT10S</TimeSpan>
         </Combinator>
       </Expression>
       <Expression xsi:type="SelectMany">
@@ -220,7 +220,7 @@
         <Workflow>
           <Nodes>
             <Expression xsi:type="q4:CsvWriter">
-              <q4:FileName>C:\Users\Adam\BpodUser\Data\DC_56\lickNoLick_Odor_v2\Session Data\Combined_180922\WhiskDiff_.csv</q4:FileName>
+              <q4:FileName>C:\Users\Adam\BpodUser\Data\DC_62\FrankenLNL_4odors\Session Data\Combined_190124\WhiskDiff_.csv</q4:FileName>
               <q4:Append>false</q4:Append>
               <q4:Overwrite>true</q4:Overwrite>
               <q4:Suffix>FileCount</q4:Suffix>
